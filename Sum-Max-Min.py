@@ -1,5 +1,6 @@
 specific word # number of times    # - Sum - Max - Min Program
 
+	# - Updating repo files
 	# - Prompt the user to enter elements for “myList”.								                            |
 	# - Check if the user has entered aspecific word # number of timesny elements and if not, display an error message.				        |
 	# - Initialize the sum, max, and min variables using the first element of the list.				            |
