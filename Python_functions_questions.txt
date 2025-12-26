@@ -1,0 +1,104 @@
+'''
+Function with Arguments and Return Value
+Write a function calculate_discount(price, discount_percent) that takes the price and discount percentage, calculates the final price, and returns it.
+
+Example:
+
+python
+Copy
+Edit
+>>> calculate_discount(100, 20)
+80.0
+2. Function Without Arguments, Returns Value
+Write a function get_current_day() that returns the current weekday (e.g., "Monday"). Use the datetime module.
+
+Hint: Use datetime.datetime.now().strftime()
+
+3. Function with Arguments, No Return Value
+Write a function print_greeting(name) that takes a person's name and prints a greeting.
+
+Example:
+
+python
+Copy
+Edit
+>>> print_greeting("Nina")
+Hello, Nina! Welcome back.
+4. Function with Default Arguments
+Write a function book_ticket(name, destination="New York") that prints a booking message. Destination should be optional.
+
+Example:
+
+python
+Copy
+Edit
+>>> book_ticket("Ali")
+Ticket booked for Ali to New York.
+>>> book_ticket("Ali", "Los Angeles")
+Ticket booked for Ali to Los Angeles.
+5. Function with Keyword Arguments
+Write a function create_user_profile(name, age, city) and call it using keyword arguments. Return a dictionary with the user info.
+
+Example:
+
+python
+Copy
+Edit
+>>> create_user_profile(name="Zara", age=28, city="Boston")
+{'name': 'Zara', 'age': 28, 'city': 'Boston'}
+6. Function Returning Multiple Values
+Write a function get_min_max(numbers) that takes a list of numbers and returns the minimum and maximum.
+
+Example:
+
+python
+Copy
+Edit
+>>> get_min_max([4, 9, 1, 6])
+(1, 9)
+7. Function with Variable Number of Arguments
+Write a function average_score(*scores) that takes any number of scores and returns their average.
+
+Example:
+
+python
+Copy
+Edit
+>>> average_score(80, 90, 100)
+90.0
+8. Reusable Function in Real Scenario
+Write a function convert_temperature(temp, unit) that takes temperature and unit ("C" or "F") and returns the converted temperature.
+
+Example:
+
+python
+Copy
+Edit
+>>> convert_temperature(100, "C")
+212.0
+>>> convert_temperature(32, "F")
+0.0
+9. Nested Function
+Write a function trip_summary(distance, speed) that uses an inner function to calculate time (time = distance/speed), and returns a message about the trip duration.
+
+Example:
+
+python
+Copy
+Edit
+>>> trip_summary(300, 60)
+"Estimated trip duration is 5.0 hours."
+10. Function That Modifies a Global List
+Create a function add_task(task) that adds a task to a global to-do list. Also write a function list_tasks() that prints all tasks.
+
+Example:
+
+python
+Copy
+Edit
+>>> add_task("Finish homework")
+>>> add_task("Call plumber")
+>>> list_tasks()
+1. Finish homework
+2. Call plumber
+'''
