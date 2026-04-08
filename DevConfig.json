@@ -1,0 +1,16 @@
+{
+    "logLevelsNeeded": 1,
+
+    "console":
+    {
+        "enableConsoleLogging": true,
+        "maxCharacters": 30
+    },
+
+    "file":
+    {
+        "enableFileLogging": true,
+        "bufferSizeInLines": 3,
+        "fileName": "log.txt"
+    }
+}
