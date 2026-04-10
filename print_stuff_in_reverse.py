@@ -4,5 +4,8 @@ def reverseList(nums):
     while index >=0:
         print(nums[index])
         index -=1
-    return None
+
+#----------------------------------------------------------------#
+lst1 = list(map(int, input("Enter list of numbers: ").split()))
+reverseList(lst1)
 #----------------------------------------------------------------#

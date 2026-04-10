@@ -8,5 +8,7 @@ def alternatingInwardsTraversalNumbers(nums):
         if left < right:
             print(nums[right])
             right -= 1
-    return None
 #----------------------------------------------------------------#
+listOfNums = list(map(int, input("Enter list of numbers: ").split()))
+alternatingInwardsTraversalNumbers(listOfNums)
+
