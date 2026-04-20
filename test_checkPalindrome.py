@@ -5,10 +5,13 @@ from checkPalindrome import checkPalindrome
 @pytest.mark.parametrize(
    "input_str, expected_output",
    [
-       ("madam", "Palindrome\n"),
        ("racecar", "Palindrome\n"),
-       ("hello", "Not Palindrome\n"),
+        ("kayyak", "Palindrome\n"),
+       ("apple", "Not Palindrome\n"),
+       ("Racecar", "Not Palindrome\n"),
        ("", "Palindrome\n"),
+       ("a", "Palindrome\n"),
+       ("no", "Not Palindrome\n")
    ],
 )
 #----------------------------------------------------------------#
