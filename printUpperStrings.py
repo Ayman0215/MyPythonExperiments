@@ -1,9 +1,7 @@
 #----------------------------------------------------------------#
-def toUpperCase(string1):
-   result = ""
-   for i in string1:
-       result += i.upper()
+def printUpperStrings(list1):
+   result = []
+   for word in list1:
+       result.append(word.upper())
    print(result)
 #----------------------------------------------------------------#
-str1 = str(input("Put a string : "))
-toUpperCase(str1)

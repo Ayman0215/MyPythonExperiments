@@ -1,20 +1,19 @@
 #----------------------------------------------------------------#
 import pytest
-from toUpperCase import toUpperCase
+from printUpperStrings import printUpperStrings
 #----------------------------------------------------------------#
 @pytest.mark.parametrize(
-   "input_str, expected_output",
+   "input_list, expected_output",
    [
-       ("abc", "ABC\n"),
-       ("AbC", "ABC\n"),
-       ("ABC", "ABC\n"),
-       ("123", "123\n"),
-       ("", "\n"),
+       (["a", "b"], "['A', 'B']\n"),
+       (["hello", "world"], "['HELLO', 'WORLD']\n"),
+       (["Ab", "cD"], "['AB', 'CD']\n"),
+       ([], "[]\n"),
    ],
 )
 #----------------------------------------------------------------#
-def test_to_uppercase(capsys, input_str, expected_output):
-   result = toUpperCase(input_str)
+def test_print_upper_strings(capsys, input_list, expected_output):
+   result = printUpperStrings(input_list)
    captured = capsys.readouterr()
    assert captured.out == expected_output
    assert result is None
