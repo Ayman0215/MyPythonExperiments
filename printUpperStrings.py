@@ -1,7 +1,6 @@
 #----------------------------------------------------------------#
 def printUpperStrings(list1):
-   result = []
-   for word in list1:
-       result.append(word.upper())
-   print(result)
+    print(list(map(str.upper, list1)))
 #----------------------------------------------------------------#
+lst1 = list(map(str, input("Enter list of strings: ").split()))
+printUpperStrings(lst1)

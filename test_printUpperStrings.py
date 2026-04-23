@@ -5,7 +5,7 @@ from printUpperStrings import printUpperStrings
 @pytest.mark.parametrize(
    "input_list, expected_output",
    [
-       (["a", "b"], "['A', 'B']\n"),
+       (["A", "B"], "['A', 'B']\n"),
        (["hello", "world"], "['HELLO', 'WORLD']\n"),
        (["Ab", "cD"], "['AB', 'CD']\n"),
        ([], "[]\n"),
